@@ -1,0 +1,13 @@
+.left-info button{
+    margin-top: 40px;
+    color: #666;
+}
+
+.left-info span, h3{
+    color: #666;
+    font-weight: 700;
+}
+
+.left-info  p{
+    color: #666;
+}
