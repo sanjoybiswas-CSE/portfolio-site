@@ -105,8 +105,7 @@ const About = () => {
                             <div>
                             <CircularProgressbar  value={percentage4} text={`${percentage4}%`} />
                             <p>GIT</p>
-                            </div>
-                       
+                            </div>                       
                         </div>
                     </div>
                 </div>
@@ -132,16 +131,46 @@ const About = () => {
                             <div>
                             <CircularProgressbar  value={percentage8} text={`${percentage8}%`} />
                             <p>MONGO DB</p>
-                            </div>
-                       
+                            </div>                      
                         </div>
                     </div>
                 </div>
 
             </div>   
             <hr/>   
+
+            {/* LAST PART */}
+
+            <div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <ul>
+                            <li>
+                                <div>
+                                <i class="fa-solid fa-briefcase"></i>
+                                </div>
+                                <span>
+                                2018 - PRESENT
+                                </span>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-6">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+            </div>
         </div>
-        </div>
+        
     );
 };
 
