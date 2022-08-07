@@ -141,29 +141,80 @@ const About = () => {
 
             {/* LAST PART */}
 
-            <div>
-                <div className="row">
+            <div className='container'>
+                <div className="row exp-edu">
+                <h3>EXPERIENCE & EDUCATION</h3>  
+                    <div className="col-md-12 eduPart">
                     <div className="col-md-6">
+                        <div className="resumebox">
                         <ul>
-                            <li>
-                                <div>
+                            <li className="firstLi">
+                                <div className='icon'>
                                 <i class="fa-solid fa-briefcase"></i>
-                                </div>
-                                <span>
-                                2018 - PRESENT
-                                </span>
+                                <span>2018 - PRESENT</span>
+                                </div>                                
+                                <h5>WEB DEVELOPER <span>ENVATO</span> </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                
                             </li>
-                            <li></li>
-                            <li></li>
+
+                            <li className="secondLi">   
+                            <div className='icon'>
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>2013 - 2018</span>
+                                </div>                                
+                                <h5>UI/UX DESIGNER <span>THEMEFOREST</span> </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                  
+                            </li>
+
+                            <li className="thirdLi">
+                            <div className='icon'>
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>2005 - 2013</span>
+                                </div>                                
+                                <h5>CONSULTANT <span>VIDEOHIVE</span> </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>  
+                            </li>
                         </ul>
+                        </div>
+                       
                     </div>
+
+
+
                     <div className="col-md-6">
+                    <div className="resumebox">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li className="fifthLi">   
+                            <div className='icon'>
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>2015</span>
+                                </div>                                
+                                <h5>ENGINEERING DEGREE <span>OXFORD UNIVERSITY </span> </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                  
+                            </li>
+
+                            <li className="fourthLi">
+                                <div className='icon'>
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>2012</span>
+                                </div>                                
+                                <h5>MASTER DEGREE <span>KIEV UNIVERSITY</span> </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                
+                            </li>
+
+                            <li className="sixthLi">
+                            <div className='icon'>
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>2009</span>
+                                </div>                                
+                                <h5>BACHELOR DEGREE <span>TUNIS HIGH SCHOOL</span> </h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>  
+                            </li>
                         </ul>
+                        </div>
                     </div>
+                    </div>
+                   
                 </div>
             </div>
 

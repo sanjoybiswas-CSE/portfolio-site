@@ -88,3 +88,124 @@ hr{
     color: #666;
     font-weight: 600;
 }
+
+/* LAST PART */
+
+.exp-edu h3{
+    text-align: center;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.eduPart li{
+    list-style: none;
+}
+
+.icon i{
+    color: aliceblue;
+    background-color: #72b626;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon span{
+    color : #666;
+    background-color: #ddd;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.eduPart h5{
+    color: #666;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 65px;
+   
+}
+
+.eduPart h5 span{
+    font-size: 15px;
+    position: relative;
+    margin-left: 26px;
+    padding-top: 5px;
+}
+
+.eduPart h5 span::before{
+    content: " __ ";
+    font-size: 15px;
+    position: absolute;
+    color: #666;
+    font-weight: 800;
+    margin-top: -3px;
+    margin-left: -20px;
+}
+
+.eduPart p{
+    padding-left: 65px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+    
+}
+
+.eduPart{
+    display: flex;
+}
+
+.resumebox .firstLi::after{
+   content: "";
+    position: absolute;
+    border-left:2px solid #666;
+    padding-top: 120px;
+    bottom: -166%;
+   left: 175px; 
+}
+
+.resumebox .secondLi::after{
+    content: "";
+    position: absolute;
+    border-left:2px solid #666;
+    padding-top: 120px;
+    bottom: -202%;
+   /* left: 175px;  */
+}
+
+
+.resumebox .thirdLi::after{
+    content: "";
+    position: absolute;
+    border-left:2px solid #666;
+    padding-top: 120px;
+    bottom: -238%;
+   /* left: 175px;  */
+}
+
+.resumebox .fourthLi::after{
+    content: "";
+    position: absolute;
+    border-left:2px solid #666;
+    padding-top: 120px;
+    bottom: -166%; 
+   left: 725px; 
+}
+
+.resumebox .fifthLi::after{
+    content: "";
+    position: absolute;
+    border-left:2px solid #666;
+    padding-top: 120px;
+    bottom: -202%;
+   left: 725px; 
+}
+
+.resumebox .sixthLi::after{
+    content: "";
+    position: absolute;
+    border-left:2px solid #666;
+    padding-top: 120px;
+    bottom: -238%;
+   left: 725px; 
+}

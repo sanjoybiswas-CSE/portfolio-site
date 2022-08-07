@@ -33,39 +33,95 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 card"> 
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image2} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">YOUTUBE PROJECT</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
 
-                    <div className="col-md-4 card"> 
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image3} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">SLIDER PROJECT</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
-               
-                    <div className="col-md-4 card"> 
+
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image4} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">LOCAL VIDEO PROJECT</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
 
-                    <div className="col-md-4 card"> 
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image5} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">IMAGE PROJECT</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
 
-                    <div className="col-md-4 card"> 
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image6} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">IMAGE PROJECT</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
-                
-               
-                    <div className="col-md-4 card"> 
+
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image7} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">Image Project</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
 
-                    <div className="col-md-4 card"> 
+                    <div className="col-md-4 "> 
+                    <div className="card">
                         <img src={image8} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">Image Project</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
 
-                    <div className="col-md-4 card">
-                        <img src={image9} alt="" /> 
+                    <div className="col-md-4 "> 
+                    <div className="card">
+                        <img src={image9} alt="" />
+                        <div className='overlay'>
+                            <h1>
+                                <Link to="/">Image Project</Link>
+                            </h1>
+                        </div>
+                        </div>
                     </div>
-                </div>
+
+          </div>
             </div>
         </div>
             
