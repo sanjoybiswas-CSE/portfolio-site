@@ -123,7 +123,7 @@ hr{
     color: #666;
     font-weight: 600;
     padding-top: 30px;
-    padding-left: 65px;
+    padding-left: 55px;
    
 }
 
@@ -145,7 +145,7 @@ hr{
 }
 
 .eduPart p{
-    padding-left: 65px;
+    padding-left: 55px;
     padding-top: 10px;
     margin-bottom: 70px;
     
@@ -155,7 +155,13 @@ hr{
     display: flex;
 }
 
-.resumebox .firstLi::after{
+.resumebox .text{
+    border-left: 2px solid #666;
+    margin-left: 18px;
+    
+}
+
+resumebox .firstLi::after{
    content: "";
     position: absolute;
     border-left:2px solid #666;
@@ -164,26 +170,26 @@ hr{
    left: 175px; 
 }
 
-.resumebox .secondLi::after{
+resumebox .secondLi::after{
     content: "";
     position: absolute;
     border-left:2px solid #666;
     padding-top: 120px;
     bottom: -202%;
-   /* left: 175px;  */
+   left: 175px; 
 }
 
 
-.resumebox .thirdLi::after{
+resumebox .thirdLi::after{
     content: "";
     position: absolute;
     border-left:2px solid #666;
     padding-top: 120px;
     bottom: -238%;
-   /* left: 175px;  */
+   left: 175px; 
 }
 
-.resumebox .fourthLi::after{
+resumebox .fourthLi::after{
     content: "";
     position: absolute;
     border-left:2px solid #666;
@@ -192,7 +198,7 @@ hr{
    left: 725px; 
 }
 
-.resumebox .fifthLi::after{
+resumebox .fifthLi::after{
     content: "";
     position: absolute;
     border-left:2px solid #666;
@@ -201,7 +207,7 @@ hr{
    left: 725px; 
 }
 
-.resumebox .sixthLi::after{
+resumebox .sixthLi::after{
     content: "";
     position: absolute;
     border-left:2px solid #666;

@@ -152,9 +152,12 @@ const About = () => {
                                 <div className='icon'>
                                 <i class="fa-solid fa-briefcase"></i>
                                 <span>2018 - PRESENT</span>
+                                </div>
+                                <div className='text'>
+                                    <h5>WEB DEVELOPER <span>ENVATO</span> </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p> 
                                 </div>                                
-                                <h5>WEB DEVELOPER <span>ENVATO</span> </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                
+                                                               
                             </li>
 
                             <li className="secondLi">   
@@ -162,17 +165,23 @@ const About = () => {
                                 <i class="fa-solid fa-briefcase"></i>
                                 <span>2013 - 2018</span>
                                 </div>                                
-                                <h5>UI/UX DESIGNER <span>THEMEFOREST</span> </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                  
+                                <div className="text">
+                                    <h5>UI/UX DESIGNER <span>THEMEFOREST</span> </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>  
+                                </div>                                
                             </li>
 
                             <li className="thirdLi">
                             <div className='icon'>
                                 <i class="fa-solid fa-briefcase"></i>
                                 <span>2005 - 2013</span>
-                                </div>                                
+                                </div> 
+
+                                <div className="text">
                                 <h5>CONSULTANT <span>VIDEOHIVE</span> </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>  
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p> 
+                                </div>                               
+                                 
                             </li>
                         </ul>
                         </div>
@@ -188,27 +197,37 @@ const About = () => {
                             <div className='icon'>
                                 <i class="fa-solid fa-briefcase"></i>
                                 <span>2015</span>
-                                </div>                                
+                                </div>  
+
+                                <div className="text">
                                 <h5>ENGINEERING DEGREE <span>OXFORD UNIVERSITY </span> </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                  
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>  
+                                </div>                              
+                                                                
                             </li>
 
                             <li className="fourthLi">
                                 <div className='icon'>
                                 <i class="fa-solid fa-briefcase"></i>
                                 <span>2012</span>
-                                </div>                                
+                                </div>   
+                                <div className="text">
                                 <h5>MASTER DEGREE <span>KIEV UNIVERSITY</span> </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>                                
+                                <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>    
+                                </div>                             
+                                                            
                             </li>
 
                             <li className="sixthLi">
                             <div className='icon'>
                                 <i class="fa-solid fa-briefcase"></i>
                                 <span>2009</span>
-                                </div>                                
+                                </div> 
+                                <div className="text">
                                 <h5>BACHELOR DEGREE <span>TUNIS HIGH SCHOOL</span> </h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>  
+                                </div>                               
+                                
                             </li>
                         </ul>
                         </div>
