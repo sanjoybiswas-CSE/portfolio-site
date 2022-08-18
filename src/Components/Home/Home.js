@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import bgImage from '../../images/profile1.jpg';
+import bgImage from '../../images/profile6.jpg';
 
 import './Home.css'
 

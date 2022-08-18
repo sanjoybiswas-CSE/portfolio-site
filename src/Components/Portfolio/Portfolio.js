@@ -115,7 +115,7 @@ const Portfolio = () => {
                         <img src={image9} alt="" />
                         <div className='overlay'>
                             <h1>
-                                <Link to="/">Image Project</Link>
+                                <Link to="/">Movie Project</Link>
                             </h1>
                         </div>
                         </div>
