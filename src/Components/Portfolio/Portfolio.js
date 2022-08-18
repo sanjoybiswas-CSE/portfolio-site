@@ -82,7 +82,7 @@ const Portfolio = () => {
                         <img src={image6} alt="" />
                         <div className='overlay'>
                             <h1>
-                                <Link to="/">IMAGE PROJECT</Link>
+                                <Link to="/">PHOTOGRAPHY</Link>
                             </h1>
                         </div>
                         </div>
@@ -93,7 +93,7 @@ const Portfolio = () => {
                         <img src={image7} alt="" />
                         <div className='overlay'>
                             <h1>
-                                <Link to="/">Image Project</Link>
+                                <Link to="/">ARCHITECT Project</Link>
                             </h1>
                         </div>
                         </div>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                         <img src={image8} alt="" />
                         <div className='overlay'>
                             <h1>
-                                <Link to="/">Image Project</Link>
+                                <Link to="/">WEB Project</Link>
                             </h1>
                         </div>
                         </div>
