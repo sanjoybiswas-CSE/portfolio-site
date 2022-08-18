@@ -71,7 +71,7 @@ const Portfolio = () => {
                         <img src={image5} alt="" />
                         <div className='overlay'>
                             <h1>
-                                <Link to="/">IMAGE PROJECT</Link>
+                                <Link to="/">EDUCATION PROJECT</Link>
                             </h1>
                         </div>
                         </div>
