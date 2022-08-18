@@ -8,7 +8,7 @@ const Home = () => {
     const navigate = useNavigate();
     return (
         <div>           
-           <div className="container ">
+           <div className="container">
             <div className="row">
                 <div className="col-md-6">
                     <div className='left-color'></div>
